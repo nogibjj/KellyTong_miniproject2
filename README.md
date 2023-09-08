@@ -33,5 +33,6 @@ The building process starts with installing the packages.
 
 `make format`
 **Make format** calls the command black *.py
+
 <img width="299" alt="make format" src="https://github.com/Kelly0604/miniproject2/assets/142815940/41df08ca-d8f7-4b62-b88b-1f39f1a7d858">
 
