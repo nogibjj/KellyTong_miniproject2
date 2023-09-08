@@ -1,6 +1,6 @@
 #this is for testing functions in main.py
 
-from main import desrcibe_dataframe, absolute_dataframe
+from main import desrcibe_dataframe
 
 
 def test_describe():
