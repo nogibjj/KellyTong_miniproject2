@@ -24,7 +24,7 @@ The building process starts with installing the packages.
 **Make install** calls the command **pip install --upgrade pip &&\pip install -r requirements.txt**
 
 `make link`
-**Make lint** calls the command **pylint --disable=R,C --ignore-patterns=test_.*?py *.py**
+**Make lint** calls the command ***pylint --disable=R,C --ignore-patterns=test_.*?py *.py***
 ![MakeLint](./make lint.png)
 
 `make test`
@@ -32,5 +32,5 @@ The building process starts with installing the packages.
 ![MakeTest](./make test.png)
 
 `make format`
-**Make format** calls the command **black *.py **
+**Make format** calls the command **black *.py***
 ![MakeFormat](./make format.png)
