@@ -3,7 +3,8 @@
 from main import create_dataframe
 
 def test_create():
-    assert create_dataframe() == {'Name': ['Tom', 'Jack', 'nick', 'juli'],
+    c = create_dataframe()
+    assert c == {'Name': ['Tom', 'Jack', 'nick', 'juli'],
         'marks': [99, 98, 95, 90]}
 #def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
