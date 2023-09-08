@@ -15,3 +15,8 @@ This repository is for IDS706 mini project week 2.
     * requiremets
 
 [![CI](https://github.com/Kelly0604/IDS706/actions/workflows/CI.yml/badge.svg)](https://github.com/Kelly0604/IDS706/actions/workflows/CI.yml)
+
+## The Building Process
+
+The building process starts with installing the packages. 
+**Make install** calls the **command pip install --upgrade pip &&\pip install -r requirements.txt**
