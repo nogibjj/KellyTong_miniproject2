@@ -6,9 +6,9 @@ def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
     describe = desrcibe_dataframe()
     assert describe.loc['count'][0]== 8
-    assert describe.loc['mean'][0] == 170
-    #assert describe.loc['min'] == 155
-    #assert describe.loc['max'] == 190
+    assert describe.loc['mean'][0] == 174.375
+    assert describe.loc['min'] == 155
+    assert describe.loc['max'] == 190
 
 #def test_absolute():
   #  "testing the absolute_dataframe function in main.py"
