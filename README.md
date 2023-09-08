@@ -5,7 +5,9 @@ This repository is for IDS706 mini project week 2.
 
 
 ## Purpose 
-    This repository is created from the template established in week 1. It is set up based on the template's environment. This repository incorporates "pandas" to develop statistical functions. Specifically, the author uses pd.dataframe() to set up a dataset. Then it is tested on the count, mean, max, and min. 
+    This repository is created from the template established in week 1. 
+    It is set up based on the template's environment. This repository incorporates "pandas" to develop statistical functions. 
+    Specifically, the author uses pd.dataframe() to set up a dataset. Then it is tested on the count, mean, max, and min. 
 
 ## Things includes are:
     * Makefile
