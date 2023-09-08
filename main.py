@@ -9,5 +9,4 @@ def desrcibe_dataframe():
 def absolute_dataframe():
     x = {'money':[100,200,-100,-200,300,-100000]}
     dataframe = pd.DataFrame(x)
-    value = dataframe.abs()
-    return value
+    return dataframe.money.abs()

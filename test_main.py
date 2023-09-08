@@ -8,8 +8,8 @@ def test_describe():
     describe = desrcibe_dataframe()
     assert describe.loc['count'][0]== 5.0
     assert describe.loc['mean'][0] == 175.0
-    assert describe.loc['min'] == 155.0
-    assert describe.loc['max'] == 190.0
+    assert describe.loc['min'][0] == 155.0
+    assert describe.loc['max'][0] == 190.0
 
 def test_absolute():
     "testing the absolute_dataframe function in main.py"
