@@ -18,5 +18,10 @@ This repository is for IDS706 mini project week 2.
 
 ## The Building Process
 
+'install'
 The building process starts with installing the packages. 
-**Make install** calls the **command pip install --upgrade pip &&\pip install -r requirements.txt**
+**Make install** calls the command **pip install --upgrade pip &&\pip install -r requirements.txt**
+
+'make lint'
+**Make lint** calls the command **pylint --disable=R,C --ignore-patterns=test_.*?py *.py**
+[!Make Lint](make lint.png)
