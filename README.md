@@ -25,12 +25,12 @@ The building process starts with installing the packages.
 
 `make link`
 **Make lint** calls the command **pylint --disable=R,C --ignore-patterns=test_.*?py *.py**
-![Make Lint](./make lint.png)
+![MakeLint](./make lint.png)
 
 `make test`
 **Make test** calls the command **python -m pytest -vv --cov=main test_*.py**
-![Make Test](./make test.png)
+![MakeTest](./make test.png)
 
 `make format`
 **Make format** calls the command **black *.py **
-![Make Format](./make format.png)
+![MakeFormat](./make format.png)
