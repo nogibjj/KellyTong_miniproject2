@@ -1,4 +1,7 @@
-# This repository is a Github template created for IDS706 mini project 1. It uses Github actions to run a Makefile for: make install, make test, make format, make lint.
+# This repository is for IDS706 mini project week 2. 
+
+# Purpose 
+    ## i    It uses Github actions to run a Makefile for: make install, make test, make format, make lint.
 
 # Things includes are:
     Makefile
