@@ -3,8 +3,7 @@ import pandas as pd
 def desrcibe_dataframe():
     x = {'height':[170,175,160,180,190,185,180, 155]}
     dataframe = pd.DataFrame(x)
-    result = dataframe.describe()
-    return result
+    return data.frame.describe()
 
 def absolute_dataframe():
     x = {'money':[100,200,-100,-200,300,-100000]}
