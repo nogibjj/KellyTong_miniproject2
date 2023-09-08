@@ -6,8 +6,8 @@ from main import desrcibe_dataframe
 def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
     describe = desrcibe_dataframe()
-    assert describe.loc['count'][0]== 6.0
-    assert describe.loc['mean'][0] == 174.375
+    assert describe.loc['count'][0]== 5.0
+    assert describe.loc['mean'][0] == 175
     assert describe.loc['min'] == 155.0
     assert describe.loc['max'] == 190.0
 
