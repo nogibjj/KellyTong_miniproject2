@@ -1,14 +1,17 @@
 #this is for testing functions in main.py
 
-from main import desrcibe_dataframe
+from main import create_dataframe
 
-def test_describe():
+def test_create():
+    assert create_dataframe() == {'Name': ['Tom', 'Jack', 'nick', 'juli'],
+        'marks': [99, 98, 95, 90]}
+#def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
-    describe = desrcibe_dataframe()
-    assert describe.loc['count'][0]== 8
-    assert describe.loc['mean'][0] == 174.375
-    assert describe.loc['min'] == 155
-    assert describe.loc['max'] == 190
+   # describe = desrcibe_dataframe()
+   # assert describe.loc['count'][0]== 8
+   # assert describe.loc['mean'][0] == 174.375
+   # assert describe.loc['min'] == 155
+   # assert describe.loc['max'] == 190
 
 #def test_absolute():
   #  "testing the absolute_dataframe function in main.py"
