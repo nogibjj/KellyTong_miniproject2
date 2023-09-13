@@ -1,12 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def marital():
     df=pd.read_csv("gss.csv")
     print(df.shape)
     print(df.describe())
-    df.plot(x='Age', y='Marital', kind = 'Scatter', title="Correlation between Age and Marital Stage")
-    plt.savefig('Age_Marital.png')
+    plot = sns.histplot(df["marital"], kde=True, color="blue", label="Marital")
+    plot.show()
     
 def desrcibe_dataframe():
     data = {'height': [170,175,160,180,190]
