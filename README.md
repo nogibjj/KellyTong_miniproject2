@@ -18,7 +18,7 @@ This repository is for IDS706 mini project week 2.
     * README
     * requiremets
 
-[![CI](https://github.com/Kelly0604/KellyTong_miniproject2/actions/workflows/CI.yml/badge.svg)](https://github.com/Kelly0604/KellyTong_miniproject2/actions/workflows/CI.yml)
+[![CI](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml)
 
 ## The Building Process
 
