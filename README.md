@@ -49,4 +49,7 @@ The building process starts with installing the packages.
 ### A Density Graph on Age
 <img width="614" alt="截屏2023-09-13 16 21 26" src="https://github.com/nogibjj/KellyTong_miniproject2/assets/142815940/bf314b8b-19ec-461a-9faa-f532fb254102">
 
+## Conclusion
+The dataset includes mostly age group from 25 to 35. The mean age is approximately 46. 
+(Please find more detailed steps in the output.pdf)
 
