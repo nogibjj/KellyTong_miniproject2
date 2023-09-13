@@ -6,8 +6,8 @@ def marital():
     df=pd.read_csv("gss.csv")
     print(df.shape)
     print(df.describe())
-    plot = sns.histplot(df["marital"], kde=True, color="blue", label="Marital")
-    plot.show()
+    plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
+    plt.show()
     
 def desrcibe_dataframe():
     data = {'height': [170,175,160,180,190]
