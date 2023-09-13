@@ -7,7 +7,8 @@ def marital():
     print(df.shape)
     print(df.describe())
     plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
-    plot.show()
+    plot.legend()
+    plt.show()
     
 def desrcibe_dataframe():
     data = {'height': [170,175,160,180,190]
