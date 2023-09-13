@@ -1,7 +1,9 @@
 #this is for testing functions in main.py
 
-from main import desrcibe_dataframe
+from main import desrcibe_dataframe, marital
 
+def test_marital():
+   marital()
 
 def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
