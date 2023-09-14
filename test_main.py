@@ -1,9 +1,9 @@
 #this is for testing functions in main.py
 
-from main import desrcibe_dataframe, marital
+from main import desrcibe_dataframe, age
 
-def test_marital():
-   marital()
+def test_age():
+   age()
 
 def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
