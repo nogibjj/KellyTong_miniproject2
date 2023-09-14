@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def marital():
+def age():
     df=pd.read_csv("gss.csv")
     print(df.shape)
     print(df.describe())
