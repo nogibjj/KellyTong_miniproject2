@@ -6,10 +6,12 @@ This repository is for IDS706 mini project week 2.
 
 ## Purpose 
     This repository is created from the template established in week 1. 
-    It is set up based on the template's environment. This repository incorporates "pandas" to develop statistical 
-    functions. Specifically, the author uses pd.dataframe() to set up a dataset. 
-    Then it is tested on the count, mean, max, and min. Moreover, the author loads the dataset gss.csv. Summary of
-    the dataset and a histogram is developed to visualized the densty of the "age" variable in the dataset.
+    It is set up based on the template's environment. This repository incorporates "pandas" to develop 
+    statistical functions. Specifically, the author uses pd.dataframe() to set up a dataset. Then it 
+    is tested on the count, mean, max, and min. 
+    Moreover, the author loads the dataset gss.csv which includes variables displaying information on 
+    age, income, and marital status etc. Summary of the dataset and a histogram is developed to 
+    visualize the density of the "age" variable in the dataset.
 
 ## Important Things included are:
     * Makefile
