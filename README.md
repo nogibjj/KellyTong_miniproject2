@@ -11,13 +11,15 @@ This repository is for IDS706 mini project week 2.
     Then it is tested on the count, mean, max, and min. Moreover, the author loads the dataset gss.csv. Summary of
     the dataset and a histogram is developed to visualized the densty of the "age" variable in the dataset.
 
-## Things includes are:
+## Important Things included are:
     * Makefile
     * Dockerfile
     * Main
     * test_main
     * README
     * requiremets
+    * gss.csv (the dataset)
+    * output.pdf (showing the output)
 
 [![CI](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml)
 
