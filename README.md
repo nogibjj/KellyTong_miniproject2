@@ -14,14 +14,28 @@ This repository is for IDS706 mini project week 2.
     visualize the density of the "age" variable in the dataset.
 
 ## Important Things included are:
-    * Makefile
-    * Dockerfile
-    * Main
-    * test_main
-    * README
-    * requiremets
-    * gss.csv (the dataset)
-    * output.pdf (showing the output)
+- ``.devcontainer`` includes a Dockerfile and devcontainer.json.
+                The 'Dockerfile' within this folder specifies how the container should be built
+
+- ``workflows`` includes CI.yml, which contain configuration files for setting up automated build, test, and deployment pipelines
+
+- ``.gitignore`` is used to specify which files or directories should be excluded from version control when using Git.
+
+- ``Makefile`` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+
+- ``README.md`` is the instruction file for the readers.
+
+- ``main.py`` is a Python file. This specific main.py includes features of importing the pandas package and utilizing pandas to visualize data. 
+
+- ``requirements.txt`` is to specify the dependencies (libraries and packages) required to run the project.
+
+- ``test_main.py`` is a test file for main.py
+
+- ``make format.png`` ``make lint.png`` ``Make Test.png``saves the running results for the building process. These are displayed in the section below
+  
+- ``gss.csv`` is the dataset used in this project. It contains variables such as age, marital status, income, region, and happiness level etc.
+  
+- ``output.pdf`` displays the detailed output from running main.py
 
 [![CI](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml)
 
