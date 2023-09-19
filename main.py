@@ -32,8 +32,8 @@ def generate_general_markdown(data):
         file.write("\n\n")  # Add a new line
         file.write("![age](age.png)\n")
     
-def desrcibe_dataframe():
-    data = {'height': [170,175,160,180,190]
-    }
-    dataframe = pd.DataFrame(data)
-    return dataframe.describe()
+#def desrcibe_dataframe():
+    #data = {'height': [170,175,160,180,190]
+    #}
+    #dataframe = pd.DataFrame(data)
+    #return dataframe.describe()
