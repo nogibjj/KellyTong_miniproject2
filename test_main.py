@@ -2,15 +2,18 @@
 import pandas as pd
 from main import describe, age, generate_general_markdown
 
-data = pd.read_csv("gss.csv")
+
 
 def test_age():
+   data = pd.read_csv("gss.csv")
    age(data)
 
 def test_describe():
+   data = pd.read_csv("gss.csv")
    describe(data)
 
 def test_md():
+   data = pd.read_csv("gss.csv")
    generate_general_markdown(data)
 
 #def test_describe():
