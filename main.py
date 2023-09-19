@@ -16,7 +16,7 @@ def age(data):
     plt.xlabel("Age")
     plt.ylabel("Count")
     plot.legend()
-    #plt.show()
+    plt.show()
     plt.savefig("age.png")
 
 def generate_general_markdown(data):
