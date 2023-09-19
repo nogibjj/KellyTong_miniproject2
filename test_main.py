@@ -1,8 +1,8 @@
 #this is for testing functions in main.py
-import pandas as pd
+#import pandas as pd
 from main import describe, age, generate_general_markdown
 
-data = pd.read_csv("gss.csv")
+data = "gss.csv"
 
 def test_age():
    age(data)
