@@ -5,10 +5,10 @@ from main import describe, age, generate_general_markdown
 data = pd.read_csv("gss.csv")
 
 def test_age():
-   age()
+   age(data)
 
 def test_describe():
-   describe()
+   describe(data)
 
 def test_md():
    generate_general_markdown(data)
