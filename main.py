@@ -4,24 +4,25 @@ import seaborn as sns
 
 
 def describe(data):
-    df = pd.read_csv(data)
-    return df.describe()
+    dataframe = pd.read_csv(data)
+    return dataframe.describe()
     
 def age(data):
     #df=pd.read_csv("gss.csv")
+    df = pd.read_csv(data)
     #print(df.shape)
     #print(df.describe())
     plot = sns.histplot(df["age"], kde=True, color="blue")
     plt.title("Age Density Graph")
     plt.xlabel("Age")
     plt.ylabel("Count")
-    #plot.legend()
+    plot.legend()
     #plt.show()
     plt.savefig("age.png")
 
 def generate_general_markdown(data):
     """generate an md file with outputs"""
-    markdown_table = describe(data)
+    markdown_table1 = describe(data)
     markdown_table1 = str(markdown_table1)
 
     # Write the markdown table to a file
