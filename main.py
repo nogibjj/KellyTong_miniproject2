@@ -19,9 +19,8 @@ def age():
     #plt.show()
     plt.savefig("age.png")
 
-def generate_general_markdown():
+def generate_general_markdown(data):
     """generate an md file with outputs"""
-    data = pd.read_csv("gss.csv")
     markdown_table1 = describe(data)
     markdown_table1 = str(markdown_table1)
 
