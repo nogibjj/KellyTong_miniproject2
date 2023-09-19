@@ -7,10 +7,10 @@ data = pd.read_csv("gss.csv")
 def test_age():
    age(data)
 
-def test_describe()
+def test_describe():
    describe(data)
 
-def test_md()
+def test_md():
    generate_general_markdown(data)
 
 def test_describe():
