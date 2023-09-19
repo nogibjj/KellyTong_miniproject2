@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def describe():
-    data = pd.read_csv("gss.csv")
-    return data.describe()
+def describe(data):
+    df = pd.read_csv(data)
+    return df.describe()
     
-def age():
-    df=pd.read_csv("gss.csv")
+def age(data):
+    df = pd.read_csv(data)
     #print(df.shape)
     #print(df.describe())
     plot = sns.histplot(df["age"], kde=True, color="blue")
