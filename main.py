@@ -3,13 +3,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def describe(data):
-    dataframe = pd.read_csv(data)
-    return dataframe.describe()
+def describe():
+    data = pd.read_csv("gss.csv")
+    return data.describe()
     
-def age(data):
-    #df=pd.read_csv("gss.csv")
-    df = pd.read_csv(data)
+def age():
+    df=pd.read_csv("gss.csv")
     #print(df.shape)
     #print(df.describe())
     plot = sns.histplot(df["age"], kde=True, color="blue")
@@ -20,8 +19,9 @@ def age(data):
     #plt.show()
     plt.savefig("age.png")
 
-def generate_general_markdown(data):
+def generate_general_markdown():
     """generate an md file with outputs"""
+    data = pd.read_csv("gss.csv")
     markdown_table1 = describe(data)
     markdown_table1 = str(markdown_table1)
 
