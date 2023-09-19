@@ -1,5 +1,5 @@
 #this is for testing functions in main.py
-import panda as pd
+import pandas as pd
 from main import desrcibe_dataframe, describe, age, generate_general_markdown
 
 data = pd.read_csv("gss.csv")
