@@ -5,16 +5,13 @@ from main import describe, age, generate_general_markdown
 
 
 def test_age():
-   data = pd.read_csv("gss.csv")
-   age(data)
+   age()
 
 def test_describe():
-   data = pd.read_csv("gss.csv")
-   describe(data)
+   describe()
 
 def test_md():
-   data = pd.read_csv("gss.csv")
-   generate_general_markdown(data)
+   generate_general_markdown()
 
 #def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
