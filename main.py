@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 def describe(data):
-    df = pd.read_csv(csv)
+    df = pd.read_csv(data)
     return df.describe()
     
 def age(data):
@@ -22,12 +22,12 @@ def age(data):
 def generate_general_markdown(data):
     """generate an md file with outputs"""
     markdown_table = describe(data)
-    markdown_table = str(markdown_table1)
+    markdown_table1 = str(markdown_table1)
 
     # Write the markdown table to a file
     with open("output.md", "w", encoding="utf-8") as file:
         file.write("Describe:\n")
-        file.write(markdown_table)
+        file.write(markdown_table1)
         file.write("\n\n")  # Add a new line
         file.write("![age](age.png)\n")
     
