@@ -68,7 +68,7 @@ Status badges for each makefile commands are displayed below. CI.yml includes al
 The building process starts with installing the packages. 
 **Make install** calls the command pip install --upgrade pip &&\pip install -r requirements.txt
 
-`make link`
+`make lint`
 
 **Make lint** calls the command pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 <img width="457" alt="make lint" src="https://github.com/Kelly0604/miniproject2/assets/142815940/39a19764-a6cc-4eaa-977f-7433b8915dad">
