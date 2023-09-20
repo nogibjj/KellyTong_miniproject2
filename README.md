@@ -37,6 +37,19 @@ This repository is for IDS706 mini project week 2.
   
 - ``output.pdf`` displays the detailed output from running main.py
 
+##Github Actions
+`install.yml`
+[![install](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/install.yml)
+
+`test.yml`
+
+`lint.yml`
+
+`deploy.yml`
+
+`generate_and_push.yml`
+
+`CI.yml`
 [![CI](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml)
 
 ## The Building Process
