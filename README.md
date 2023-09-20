@@ -37,7 +37,9 @@ This repository is for IDS706 mini project week 2.
   
 - ``output.pdf`` displays the detailed output from running main.py
 
-##Github Actions
+## Github Actions
+Status badges for each makefile commands are displayed below. CI.yml includes all commands. 
+
 `install.yml`
 [![install](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/install.yml)
 
